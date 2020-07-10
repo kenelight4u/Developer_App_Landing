@@ -115,7 +115,7 @@ header .navbar ul li a.active::before {
 }
 .home {
     min-height: 100vh;
-    background-image: url('/images/Rectangle\ 1.png');
+    background-image: url('../images/Rectangle\ 1.png');
     background-size: cover;
     background-position: center;
     padding: 15px;
@@ -253,6 +253,68 @@ svg{width: 150px;}
     border-radius: 50%; 
     background-color: #EEEEEE;
 }
+
+/* Blog */
+.card {
+    border: 0;
+}
+.card-body{
+    padding-left: 0;
+}
+
+/* FORM SECTIOM */
+#exampleFormControlInput1, #exampleFormControlTextarea1{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000000;
+    padding-left: 0;
+}
+#exampleFormControlInput1:hover{
+    border: 0;
+}
+#exampleFormControlTextarea1:hover{
+    border: 0;
+}
+label{
+    font-weight: 500;
+    font-size: 10px;
+    color: #474747;
+}
+
+::placeholder {
+    color: #C0C0C0 !important;
+    opacity: 1 !important;
+    font-size: 10px;
+}
+
+/* ADDRESS DETAILS */
+.bckgrd{
+    /* The image used */
+background-image: url('../images/Rectangle\ 47.png');
+
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 575px;
+/* color: #F5F5F5;
+box-shadow: 0 1px 6px 0 #292929; */
+}
+
+/* .form_section {
+    background-color: #F5F5F5;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+} */
+
+/* .form_section h3 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #2DAAE1;
+} */
+
+
 @media(max-width: 991px){
     .home .home-content .block h1 {
         font-size: 50px;  
