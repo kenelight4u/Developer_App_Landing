@@ -152,35 +152,34 @@ header .navbar ul li a.active::before {
 .home .home-content .block p span{
     color: #0BB8B6;
 }
-/* .home .home-content .block h6 {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-} */
-/* .home .home-content .block h1 {
-    color: #000000;
-    font-size: 70px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-} */
-/* .home .home-content .block h3 {
-    color: #000000;
-    font-size: 25px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-} */
+
+
+/* portfolio */
+.portfolio h6 {
+    font-size: 26px; 
+    font-weight: 600;  
+    line-height: 44px;
+}
+.portfolio p {
+    font-weight: 500; 
+    line-height: 18px; 
+    padding-top: 10px;
+}
+#port_grey{
+    color: #333333;
+}
+#port_blue {
+    color: #76C2A3;
+}
+
 .pt-btn {
     padding-top: 10px;
 }
 .pt-btn a{
-    padding: 12px 24px;
+    padding: 8px 12px;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 500;
     transition: all .5s ease;
@@ -297,7 +296,8 @@ background-image: url('../images/Rectangle\ 47.png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-min-height: 575px;
+min-height: 400px;
+max-height: 575px;
 /* color: #F5F5F5;
 box-shadow: 0 1px 6px 0 #292929; */
 }
@@ -359,7 +359,45 @@ box-shadow: 0 1px 6px 0 #292929; */
     header .navbar ul li a::before{
         background-color: #eeeeee;
     }
+    .hide{
+        display: none;
+    }
     /* header {
         height: 100vh;
     } */
+}
+@media(min-width: 576px){
+    .card{
+        width: 30rem !important;
+    }
+    .portfolio h6 {
+        font-size: 36px; 
+        font-weight: bold;  
+        line-height: 44px;
+    }
+    .portfolio p {
+        font-weight: 500; 
+        line-height: 20px; 
+        padding-top: 10px;
+    }
+
+    .pt-btn a{
+        padding: 12px 24px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: all .5s ease;
+    }
+}
+@media(min-width: 768px){
+    .card{
+        width: 16rem !important;
+    }
+}
+@media(min-width: 992px){
+    .card{
+        width: 18rem !important;
+    }
 }
