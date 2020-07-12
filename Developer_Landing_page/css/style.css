@@ -247,7 +247,9 @@ svg{width: 150px;}
 
 /* About */
 .about_img {
-    width: 150px; 
+    /* min-width: 128px;  */
+    width: 150px;
+    /* min-height: 128px; */
     height: 150px; 
     border-radius: 50%; 
     background-color: #EEEEEE;
@@ -285,6 +287,18 @@ label{
     opacity: 1 !important;
     font-size: 10px;
 }
+
+/* Skill Set */
+/* .skill_bckgrd {
+    background-image: url('../images/Rectangle\ 2.png'); */
+
+    /* Center and scale the image nicely */
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 575px;
+} */
 
 /* ADDRESS DETAILS */
 .bckgrd{
@@ -362,9 +376,7 @@ box-shadow: 0 1px 6px 0 #292929; */
     .hide{
         display: none;
     }
-    /* header {
-        height: 100vh;
-    } */
+   
 }
 @media(min-width: 576px){
     .card{
